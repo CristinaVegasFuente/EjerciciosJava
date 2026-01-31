@@ -1,0 +1,15 @@
+IPv4 a 32Bits
+
+Toma la siguiente dirección IPv4: 128.32.10.1. Esta dirección tiene 4 octetos,
+donde cada octeto es un solo byte (o 8 bits).
+
+· El primer octeto, 128, tiene la representación binaria: 10000000
+· El segundo octeto, 32, tiene la representación binaria: 00100000
+· El tercer octeto, 10, tiene la representación binaria: 00001010
+· El cuarto octeto, 1, tiene la representación binaria: 00000001
+
+Por lo tanto, 128.32.10.1 es igual a 10000000.00100000.00001010.00000001
+Dado que la dirección IP anterior tiene 32 bits, podemos representarla como
+el número de 32 bits: 2149583361.
+Este sería el resultado a mostrar
+E implementar la conversión inversa (int -> ipv4)
