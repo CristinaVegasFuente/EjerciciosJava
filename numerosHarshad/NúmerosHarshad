@@ -1,0 +1,29 @@
+Números Harshad
+https://en.wikipedia.org/wiki/Harshad_number
+Los números Harshad (también llamados números de Niven) son números positivos que pueden ser divididos (sin resto)
+por la suma de sus dígitos.
+Por ejemplo, los siguientes números son números Harshad:
+
+· 10, porque 1 + 0 = 1 y 10 es divisible por 1
+· 27, porque 2 + 7 = 9 y 27 es divisible por 9
+· 588, porque 5 + 8 + 8 = 21 y 588 es divisible por 21
+
+Mientras que estos números no lo son:
+
+· 19, porque 1 + 9 = 10 y 19 no es divisible por 10
+· 589, porque 5 + 8 + 9 = 22 y 589 no es divisible por 22
+· 1001, porque 1 + 1 = 2 y 1001 no es divisible por 2
+
+Los números Harshad se pueden encontrar en cualquier base numérica, pero nos vamos a centrar exclusivamente
+en la base 10.
+Tu tarea es completar el esqueleto del objeto Harshad ("clase estática") que tiene 3 funciones:
+
+· isValid() que verifica si n es un número Harshad o no.
+· getNext() que devuelve el siguiente número Harshad mayor que n.
+· getSerie() que devuelve una serie de n números Harshad, el valor de inicio opcional no está incluido.
+
+Examples
+Harshad.isValid(1) ==> true
+Harshad.getNext(0) ==> 1
+Harshad.getSerie(3) ==> [ 1, 2, 3 ]
+Harshad.getSerie(1000, 3) ==> [ 1002, 1008, 1010 ]
